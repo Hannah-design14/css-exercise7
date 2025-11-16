@@ -1,0 +1,56 @@
+.wrapper {
+    margin: 0 auto;
+    background-color: aliceblue;
+    border-style: solid;
+    border-color:lightgray;
+    border-width: 3px;
+    width: 948px;
+}
+
+.title {
+    padding-top: 20px;
+    background-color:aqua;
+}
+
+.heading {
+    padding-left: 10px;
+    margin: 0;
+}
+
+.display {
+    padding-left: 10px;
+}
+
+.nav {
+    display: flex;
+    padding: 10px;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.nav-item {
+    flex-grow: 1;
+    margin: 0 8px;
+}
+
+.nav-link {
+    background-color: cornflowerblue;
+    color: blue;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color:lightgray;
+    color:blue;
+}
+
+.nav-link:active {
+    background-color: white;
+    color: blue;
+}
+
+.main-content {
+    padding-left: 10px;
+}
