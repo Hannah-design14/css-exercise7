@@ -1,10 +1,9 @@
 .wrapper {
-    margin: 0 auto;
-    background-color: aliceblue;
+    margin: 20px;
+    background-color:aliceblue;
     border-style: solid;
     border-color:lightgray;
     border-width: 3px;
-    width: 948px;
 }
 
 .title {
